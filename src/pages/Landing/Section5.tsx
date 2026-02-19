@@ -24,7 +24,7 @@ export function Section5() {
         <p className="text-slate-400 text-sm mt-1">Liquid Staking on Vara Network</p>
       </div>
 
-      <div className="flex items-center gap-4">
+      {/* <div className="flex items-center gap-4">
         {SOCIALS.map(({ icon, href, label }) => (
           <a
             key={label}
@@ -35,7 +35,7 @@ export function Section5() {
             <span className="material-symbols-outlined text-[18px]">{icon}</span>
           </a>
         ))}
-      </div>
+      </div> */}
 
       <p className="text-slate-600 text-xs">
         © {new Date().getFullYear()} ekatStake. Built on Vara Network.

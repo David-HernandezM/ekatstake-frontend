@@ -45,7 +45,7 @@ export function Section2() {
             icon: "deployed_code",
             step: "01",
             title: "Stake VARA",
-            desc: "Deposit your VARA tokens into the ekatStake smart contract and start earning rewards immediately.",
+            desc: "Deposit your VARA tokens and start earning rewards immediately.",
           },
           {
             icon: "token",
@@ -57,7 +57,7 @@ export function Section2() {
             icon: "trending_up",
             step: "03",
             title: "Earn & Grow",
-            desc: "Your staking rewards accumulate automatically. Unstake anytime and claim your VARA plus rewards.",
+            desc: "Unstake anytime and claim your VARA plus rewards.",
           },
         ].map(({ icon, step, title, desc }) => (
           <div
